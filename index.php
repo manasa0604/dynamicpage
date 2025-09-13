@@ -1,8 +1,8 @@
 <?php
-$host = getenv('DB_HOST');      // RDS endpoint
-$user = getenv('DB_USER');      // DB username
-$pass = getenv('DB_PASS');      // DB password
-$dbname = getenv('DB_NAME');    // Database name
+$host = getenv('database.c1w8084u6kqu.ap-south-1.rds.amazonaws.com');      // RDS endpoint
+$user = getenv('admin');      // DB username
+$pass = getenv('m8?O)0QU[3m!sPidEzz8u>D_cuj)');      // DB password
+$dbname = getenv('dynamic');    // Database name
 
 // Connect to DB
 $conn = new mysqli($host, $user, $pass, $dbname);
